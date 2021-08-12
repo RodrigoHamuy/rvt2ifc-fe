@@ -1,40 +1,76 @@
-import {BoxGeometry, Mesh, MeshBasicMaterial, PerspectiveCamera, Scene, WebGLRenderer} from 'three';
+import { EventDispatcher, PerspectiveCamera, Scene, WebGLRenderer } from 'three';
+
+export enum STAGE_EVENT {
+  tick = 'tick',
+  preTick = 'preTick',
+  postTick = 'postTick',
+}
 
 export class Stage {
+  
+  private dispatcher = new EventDispatcher();
 
-  protected camera: PerspectiveCamera;  
-  protected scene: Scene;
-  protected renderer: WebGLRenderer;  
-  protected animateLoop: () => void;
+  camera: PerspectiveCamera;  
+  scene: Scene;
+  renderer: WebGLRenderer;
   
   constructor(container: Element = document.body) {
-    this.camera = new PerspectiveCamera(70, window.innerWidth / window.innerHeight, .01, 1000)
-    // this.camera.position.z = 1;
+    this.camera = new PerspectiveCamera(70, window.innerWidth / window.innerHeight, .01, 1000);
 
     this.scene = new Scene();
 
-    this.renderer = new WebGLRenderer({antialias: true});
+    this.renderer = new WebGLRenderer({antialias: true, logarithmicDepthBuffer: true});
     this.renderer.setSize(window.innerWidth, window.innerHeight);
     this.renderer.setClearColor(0xa9a9a9, 1);
+
     container.appendChild(this.renderer.domElement);
 
-    this.onMount();
+    window.addEventListener('resize', this.onWindowResize);
 
-    this.animateLoop = this.animate.bind(this);
-    this.animate();
-    
+    this.animate(0);    
   }
 
-  protected onMount() {}
-
-  protected animate() {
-    requestAnimationFrame(this.animateLoop);
+  private animate = (time: number) => {
+    this.fire(STAGE_EVENT.preTick, time);
+    requestAnimationFrame(this.animate);
+    this.fire(STAGE_EVENT.tick, time);
     this.renderer.render(this.scene, this.camera);
+    this.fire(STAGE_EVENT.postTick, time);
   }
 
-  protected onWindowResize() {
+  private onWindowResize = () => {
     this.camera.aspect = window.innerWidth / window.innerHeight;
     this.camera.updateProjectionMatrix();
     this.renderer.setSize(window.innerWidth, window.innerHeight);
   }
+  
+  onPreTick(callback: iListener<number>) {
+    this.on(STAGE_EVENT.preTick, callback);
+  }
+  
+  onTick(callback: iListener<number>) {
+    this.on(STAGE_EVENT.tick, callback);
+  }
+
+  onPostTick(callback: iListener<number>) {
+    this.on(STAGE_EVENT.postTick, callback);
+  }
+
+  off(eventType: STAGE_EVENT, callback: iListener) {
+    this.dispatcher.removeEventListener(eventType, callback as any);
+  }
+
+  private on(eventType: STAGE_EVENT, callback: any) {
+    this.dispatcher.addEventListener(eventType, callback);
+  }
+
+  private fire(eventType: STAGE_EVENT, data: any) {
+    this.dispatcher.dispatchEvent({type: eventType, data });
+  }
+}
+
+type iListener <T=any> = (e?: iEvent<T>) => void;
+
+interface iEvent<T> extends Event{
+  data: T;
 }

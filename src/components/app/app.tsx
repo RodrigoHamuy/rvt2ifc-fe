@@ -1,9 +1,9 @@
-import React, { ChangeEventHandler, useCallback } from 'react'
-import { IfcViewer } from '../ifc-viewer/ifc-viewer';
+import React, { ChangeEventHandler, useCallback } from 'react';
+import { IfcManager } from '../ifc-manager/ifc-manager';
 
 type InputChange = ChangeEventHandler<HTMLInputElement>;
 
-const ifcViewer = new IfcViewer();
+const ifcViewer = new IfcManager();
 
 function App() {
 
