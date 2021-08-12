@@ -2,9 +2,8 @@
   "name": "rvt2ifc-fe",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
+    "start": "vite",
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "react": "^17.0.0",
@@ -13,8 +12,12 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/three": "^0.131.0",
     "@vitejs/plugin-react-refresh": "^1.3.1",
+    "three.js": "^0.77.1",
     "typescript": "^4.3.2",
-    "vite": "^2.4.4"
+    "vite": "^2.4.4",
+    "vite-plugin-live-reload": "^2.1.0",
+    "web-ifc-three": "^0.0.47"
   }
 }
