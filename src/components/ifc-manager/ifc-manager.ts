@@ -2,7 +2,7 @@ import { DirectionalLight, AmbientLight } from "three";
 import { IFCModel } from "web-ifc-three/IFC/Components/IFCModel";
 import { IFCLoader } from "web-ifc-three/IFCLoader";
 import { CameraManager } from "../camera-manager/camera-manager";
-import { Picker } from "../picker/picker";
+import { Picker, PICKER_EVENT } from "../picker/picker";
 import { Stage } from "../stage/stage";
 import { StatsManager } from "../stats/stats";
 import {
@@ -17,6 +17,7 @@ export class IfcManager {
   private ifcLoader = new IFCLoader();
   private cameraManager: CameraManager;
   private picker: Picker;
+  private model!: IFCModel;
 
   constructor() {
 
@@ -33,16 +34,27 @@ export class IfcManager {
     new StatsManager(this.stage);
 
     this.stage.renderer.domElement.addEventListener('dblclick', this.picker.pick.bind(this.picker));
+
+    this.picker.on(PICKER_EVENT.pick, e=>{
+      this.cameraManager.fitToFrame({ 
+        obj: e.data!.object, 
+        direction: e.data!.normal.clone().negate()
+      });
+    })
+
+    this.picker.on(PICKER_EVENT.unpick, ()=>{
+      this.cameraManager.fitToFrame({ obj: this.model });
+    })
   }
 
   async loadFile(file: File) {
     console.log('loading');
     const url = URL.createObjectURL(file);
     this.ifcLoader.ifcManager
-    const model: IFCModel = await this.ifcLoader.loadAsync(url);
-    this.stage.scene.add(model);
-    this.cameraManager.fitToFrame(model);
-    console.log(model);
+    this.model = await this.ifcLoader.loadAsync(url);
+    this.stage.scene.add(this.model);
+    this.cameraManager.fitToFrame({ obj: this.model, root: true });
+    console.log(this.model);
   }
 
   private initLights() {

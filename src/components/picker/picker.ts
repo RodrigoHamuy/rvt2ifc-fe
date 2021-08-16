@@ -1,8 +1,16 @@
-import { Mesh, MeshLambertMaterial, Raycaster } from "three";
+import { EventDispatcher, Intersection, Mesh, MeshLambertMaterial, Raycaster, Vector3 } from "three";
 import { IFCManager } from "web-ifc-three/IFC/Components/IFCManager";
+import { iListener } from "../../event/event";
 import { Stage } from "../stage/stage";
 
+export enum PICKER_EVENT {
+  pick = 'pick',
+  unpick = 'unpick',
+};
+
 export class Picker {
+  
+  private dispatcher = new EventDispatcher();
 
   private raycaster = new Raycaster();
 
@@ -13,7 +21,8 @@ export class Picker {
     depthTest: false,
   })
 
-  private current?: number;
+  /** Current picked model ID */
+  private modelID?: number;
 
   constructor(private stage: Stage, private ifc: IFCManager) {
     (this.raycaster as any).firstHitOnly = true;
@@ -29,7 +38,7 @@ export class Picker {
     const y2 = bounds.bottom - bounds.top;
     const y = - (y1 / y2) * 2 + 1;
 
-    this.raycaster.setFromCamera({x, y}, this.stage.camera);
+    this.raycaster.setFromCamera({ x, y }, this.stage.camera);
 
     const objs = this.raycaster.intersectObjects(this.stage.scene.children);
 
@@ -39,25 +48,59 @@ export class Picker {
   pick(e: MouseEvent) {
     const objs = this.cast(e);
     const found = objs[0];
-    if(found) {
+    if (found) {
       const index = found.faceIndex!;
       const obj = found.object as (Mesh & { modelID: number });
       const geometry = obj.geometry;
-      this.current = obj.modelID;
-      this.ifc.createSubset({
-        modelID: this.current,
-        ids: [this.ifc.getExpressId(geometry, index)!],
+      this.modelID = obj.modelID;
+      const expressID = this.ifc.getExpressId(geometry, index)!;
+      const pickedObj = this.ifc.createSubset({
+        modelID: this.modelID,
+        ids: [expressID],
         material: this.preselectMat,
         scene: this.stage.scene,
         removePrevious: true,
       });
-      this.ifc.useJSONData
+      
+      // console.log(obj.position);
+      // console.log(geometry.toJSON());
+
+      // console.log(expressID);
+      console.log('getItemProperties');
+      console.log(this.ifc.getItemProperties(this.modelID, expressID), true);
+      // console.log('getMaterialsProperties');
+      // console.log(this.ifc.getMaterialsProperties(this.modelID, expressID));
+      // console.log('getPropertySets');
+      // console.log(this.ifc.getPropertySets(this.modelID, expressID));
+      // console.log('getSpatialStructure');
+      // console.log(this.ifc.getSpatialStructure(this.modelID));
+      // console.log('getAttribute');
+      // console.log(geometry.getAttribute('position'));
+
+      this.fire(PICKER_EVENT.pick, {
+        normal: found.face!.normal,
+        object: pickedObj!,
+      });
     } else {
-      if(this.current !== undefined) {
-        console.log('unpick');        
-        this.ifc.removeSubset(this.current, this.stage.scene, this.preselectMat);
-        this.current = undefined;
+      if (this.modelID !== undefined) {
+        console.log('unpick');
+        this.ifc.removeSubset(this.modelID, this.stage.scene, this.preselectMat);
+        this.modelID = undefined;
+        this.fire(PICKER_EVENT.unpick);
       }
     }
   }
+
+  on(eventType: PICKER_EVENT, callback: iListener<PickEvent|undefined>) {
+    this.dispatcher.addEventListener(eventType, callback as any);
+  }
+
+  private fire(eventType: PICKER_EVENT, data?: PickEvent) {
+    this.dispatcher.dispatchEvent({type: eventType, data });
+  }
+}
+
+export interface PickEvent {
+  object: Mesh;
+  normal: Vector3;
 }

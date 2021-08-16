@@ -1,4 +1,5 @@
 import { EventDispatcher, PerspectiveCamera, Scene, WebGLRenderer } from 'three';
+import { iListener } from '../../event/event';
 
 export enum STAGE_EVENT {
   tick = 'tick',
@@ -67,10 +68,4 @@ export class Stage {
   private fire(eventType: STAGE_EVENT, data: any) {
     this.dispatcher.dispatchEvent({type: eventType, data });
   }
-}
-
-type iListener <T=any> = (e?: iEvent<T>) => void;
-
-interface iEvent<T> extends Event{
-  data: T;
 }
