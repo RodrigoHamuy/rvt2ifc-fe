@@ -1,6 +1,6 @@
 {
   "name": "rvt2ifc-fe",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build"
