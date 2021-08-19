@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  setup:
+  publish:
     if: contains(github.event.head_commit.message, '[minor]') || contains(github.event.head_commit.message, '[patch]')
     runs-on: ubuntu-latest
     steps:
@@ -13,8 +13,8 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm run build
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
       - if: contains(github.event.head_commit.message, '[minor]')
         run: npm version minor -m "[skip ci] minor bump to %s"
       - if: contains(github.event.head_commit.message, '[patch]')
