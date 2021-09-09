@@ -50,7 +50,10 @@ export class IfcManager {
   async loadFile(file: File) {
     console.log('loading');
     const url = URL.createObjectURL(file);
-    this.ifcLoader.ifcManager
+    return this.loadUrl(url);
+  }
+
+  async loadUrl(url: string) {
     this.model = await this.ifcLoader.loadAsync(url);
     this.stage.scene.add(this.model);
     this.cameraManager.fitToFrame({ obj: this.model, root: true });
