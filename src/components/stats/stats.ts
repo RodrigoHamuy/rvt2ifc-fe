@@ -1,4 +1,4 @@
-import * as Stats from 'stats.js';
+import Stats from 'stats.js';
 import { Stage } from '../stage/stage';
 
 export class StatsManager {
