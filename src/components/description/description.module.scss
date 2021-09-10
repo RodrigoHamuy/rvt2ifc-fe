@@ -8,6 +8,7 @@
     z-index: 2;
     padding: 60px 10px 0;
     font-size: 12px;
+    overflow-y: scroll;
 }
 .ul {
     margin: 0;
@@ -21,6 +22,9 @@
     display: flex;
     justify-content: space-between;
     margin: 5px 0;
+}
+.li:nth-of-type(2n) {
+    background: rgb(228, 228, 228);
 }
 .value {
     text-align: right;
