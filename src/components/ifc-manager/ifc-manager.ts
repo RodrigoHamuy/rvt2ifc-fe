@@ -88,6 +88,7 @@ export class IfcManager {
 
   loadUrl = async (url: string) => {
     if(this.model) {
+      this.picker.unpick();
       this.model.parent?.remove(this.model);
       // this.model.remove();
       // this.model.clear();

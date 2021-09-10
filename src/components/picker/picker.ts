@@ -90,12 +90,16 @@ export class Picker {
         data,
       });
     } else {
-      if (this.modelID !== undefined) {
-        console.log('unpick');
-        this.ifc.removeSubset(this.modelID, this.stage.scene, this.preselectMat);
-        this.modelID = undefined;
-        this.fire(PICKER_EVENT.unpick);
-      }
+      this.unpick();
+    }
+  }
+
+  unpick = ()=> {
+    if (this.modelID !== undefined) {
+      console.log('unpick');
+      this.ifc.removeSubset(this.modelID, this.stage.scene, this.preselectMat);
+      this.modelID = undefined;
+      this.fire(PICKER_EVENT.unpick);
     }
   }
 
