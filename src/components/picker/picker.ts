@@ -67,7 +67,12 @@ export class Picker {
 
       // console.log(expressID);
       // console.log('getItemProperties');
-      const data = this.ifc.getItemProperties(this.modelID, expressID, false);
+      const data = {
+        native: this.ifc.getItemProperties(this.modelID, expressID, false),
+        material: this.ifc.getMaterialsProperties(this.modelID, expressID, false),
+        type: this.ifc.getTypeProperties(this.modelID, expressID, false),
+        quantity: this.ifc.getPropertySets(this.modelID, expressID, false),
+      };
       // console.log(data);      
       // console.log(JSON.stringify(data, undefined, 2));
       // console.log('getMaterialsProperties');

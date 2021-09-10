@@ -34,13 +34,32 @@ export const Description = () => {
     if (!data) return <></>;
 
     return <div className={classes.panel}>
+        <div><b>native</b></div>
         <ul className={classes.ul}>
-            {getDataList(data).map((v, i) => (
+            {getDataList(data.native).map((v, i) => (
                 <li key={i} className={classes.li}>
                     <div>{v[0]}</div>
                     <div className={classes.value}>{v[1]}</div>
                 </li>
             ))}
+        </ul>
+        <div><b>material</b></div>
+        <ul className={classes.ul}>
+            {data.material.flatMap((m: any)=>getDataList(m).map((v, i) => (
+                <li key={i} className={classes.li}>
+                    <div>{v[0]}</div>
+                    <div className={classes.value}>{v[1]}</div>
+                </li>
+            )))}
+        </ul>
+        <div><b>quantity</b></div>
+        <ul className={classes.ul}>
+            {data.quantity.flatMap((m: any, x: number)=>getDataList(m).map((v, i) => (
+                <li key={`${x}${i}`} className={classes.li}>
+                    <div>{v[0]}</div>
+                    <div className={classes.value}>{v[1]}</div>
+                </li>
+            )))}
         </ul>
     </div>
 }
