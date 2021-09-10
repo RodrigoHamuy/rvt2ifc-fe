@@ -1,23 +1,27 @@
-import React, { ChangeEventHandler, useCallback, useEffect } from 'react';
-import { IfcManager } from '../ifc-manager/ifc-manager';
-
-type InputChange = ChangeEventHandler<HTMLInputElement>;
-
-const ifcViewer = new IfcManager();
+import React, { ChangeEventHandler, useCallback, useContext, useEffect, useRef } from 'react';
+import { R2iContext } from '../context/contex';
+import { Description } from '../description/description';
+import classes from './app.module.scss';
 
 function App() {
 
-  const onFileChange = useCallback<InputChange>(e=>{    
+  const ref = useRef<HTMLDivElement>(undefined as any);
+
+  const {loadFile, loadUrl, insertCanvas} = useContext(R2iContext);
+
+  const onFileChange = useCallback<ChangeEventHandler<HTMLInputElement>>(e=>{    
     const file = e.target.files![0];
-    ifcViewer.loadFile(file);
+    loadFile(file);
   }, []);
 
   useEffect(()=>{
-    ifcViewer.loadUrl('project.ifc');
+    insertCanvas(ref.current);
+    loadUrl('project.ifc');
   }, []);
   
-  return <div style={{position: 'absolute'}}>
-    <input type="file" name="ifc-file" accept="ifc" onChange={onFileChange} />
+  return <div className={classes.container} ref={ref}>
+    <input className={classes.file} type="file" name="ifc-file" accept="ifc" onChange={onFileChange} />
+    <Description />
   </div>
 }
 

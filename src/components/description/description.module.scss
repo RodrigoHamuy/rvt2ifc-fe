@@ -1,0 +1,27 @@
+.panel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background: #fff;
+    z-index: 2;
+    padding: 60px 10px 0;
+    font-size: 12px;
+}
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.value {
+    text-align: right;
+}

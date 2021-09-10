@@ -66,8 +66,10 @@ export class Picker {
       // console.log(geometry.toJSON());
 
       // console.log(expressID);
-      console.log('getItemProperties');
-      console.log(this.ifc.getItemProperties(this.modelID, expressID), true);
+      // console.log('getItemProperties');
+      const data = this.ifc.getItemProperties(this.modelID, expressID, false);
+      // console.log(data);      
+      // console.log(JSON.stringify(data, undefined, 2));
       // console.log('getMaterialsProperties');
       // console.log(this.ifc.getMaterialsProperties(this.modelID, expressID));
       // console.log('getPropertySets');
@@ -80,6 +82,7 @@ export class Picker {
       this.fire(PICKER_EVENT.pick, {
         normal: found.face!.normal,
         object: pickedObj!,
+        data,
       });
     } else {
       if (this.modelID !== undefined) {
@@ -103,4 +106,5 @@ export class Picker {
 export interface PickEvent {
   object: Mesh;
   normal: Vector3;
+  data: any;
 }

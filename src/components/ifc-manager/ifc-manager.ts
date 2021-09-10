@@ -34,6 +34,27 @@ export class IfcManager {
     new StatsManager(this.stage);
 
     this.stage.renderer.domElement.addEventListener('dblclick', this.picker.pick.bind(this.picker));
+    
+    // mobile double tap support in progress
+    // (()=>{
+    //   let lastTouchTime : number | undefined;
+    //   let lastTouchPos: {x: number, y: number} | undefined;
+    //   this.stage.renderer.domElement.addEventListener('touchstart', (e)=> {
+    //     const touch = e.touches[0];
+    //     if(!lastTouchTime) {
+    //       lastTouchTime = Date.now();
+    //       lastTouchPos = {x: touch.pageX, y: touch.pageY};
+    //     } else {
+    //       if(Date.now() - lastTouchTime > 1000) {
+    //         lastTouchTime = undefined;
+    //         return;
+    //       }
+    //       this.stage.renderer
+    //     }
+
+    //   })
+    // })();
+
 
     this.picker.on(PICKER_EVENT.pick, e=>{
       this.cameraManager.fitToFrame({ 
@@ -45,19 +66,36 @@ export class IfcManager {
     this.picker.on(PICKER_EVENT.unpick, ()=>{
       this.cameraManager.fitToFrame({ obj: this.model });
     })
+  }  
+
+  onPick = (callback: (data: any)=>void) => {
+    this.picker.on(PICKER_EVENT.pick, (e)=>{
+      if(e.data?.data) callback(e.data.data)
+    });
   }
 
-  async loadFile(file: File) {
+  onUnpick = (callback: ()=>void) => {
+    this.picker.on(PICKER_EVENT.unpick, callback);
+  }
+
+  insertCanvas = this.stage.insertCanvas;
+
+  loadFile = async (file: File) => {
     console.log('loading');
     const url = URL.createObjectURL(file);
     return this.loadUrl(url);
   }
 
-  async loadUrl(url: string) {
+  loadUrl = async (url: string) => {
+    if(this.model) {
+      this.model.parent?.remove(this.model);
+      // this.model.remove();
+      // this.model.clear();
+    }
     this.model = await this.ifcLoader.loadAsync(url);
     this.stage.scene.add(this.model);
     this.cameraManager.fitToFrame({ obj: this.model, root: true });
-    console.log(this.model);
+    // console.log(this.model);
   }
 
   private initLights() {
