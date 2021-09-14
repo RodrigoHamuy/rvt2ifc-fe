@@ -10,8 +10,13 @@
     font-size: 12px;
     overflow-y: scroll;
 }
+.header {
+    color: rgb(68, 68, 68);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    font-weight: bold;
+}
 .ul {
-    margin: 0;
+    margin: 0 0 15px;
     padding: 0;
     list-style: none;
 }
