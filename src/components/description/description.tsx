@@ -34,7 +34,7 @@ export const Description = () => {
     if (!data) return <></>;
 
     return <div className={classes.panel}>
-        <div><b>native</b></div>
+        <div className={classes.header}>native</div>
         <ul className={classes.ul}>
             {getDataList(data.native).map((v, i) => (
                 <li key={i} className={classes.li}>
@@ -43,7 +43,7 @@ export const Description = () => {
                 </li>
             ))}
         </ul>
-        <div><b>material</b></div>
+        <div className={classes.header}>material</div>
         <ul className={classes.ul}>
             {data.material.flatMap((m: any)=>getDataList(m).map((v, i) => (
                 <li key={i} className={classes.li}>
@@ -52,7 +52,7 @@ export const Description = () => {
                 </li>
             )))}
         </ul>
-        <div><b>quantity</b></div>
+        <div className={classes.header}>quantity</div>
         <ul className={classes.ul}>
             {data.quantity.flatMap((m: any, x: number)=>getDataList(m).map((v, i) => (
                 <li key={`${x}${i}`} className={classes.li}>
