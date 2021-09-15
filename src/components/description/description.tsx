@@ -55,17 +55,9 @@ export const Description = () => {
 
     if(data.material.length) {
         let layers;
-        switch (data.material[0].constructor.name) {
-            case 'IfcMaterial':
-                rows.push([`layer name`, data.material[0].Name.value])
-                break;
-            case 'IfcMaterialLayerSetUsage':
-                layers = data.material[0].ForLayerSet.MaterialLayers;
-                break;
-            case 'IfcMaterialLayerSet':
-                layers = data.material[0].MaterialLayers;
-                break;
-        }
+        if(data.material[0].ForLayerSet) layers = data.material[0].ForLayerSet.MaterialLayers;
+        if(data.material[0].MaterialLayers) layers = data.material[0].MaterialLayers;
+        else if(data.material[0].Name) rows.push([`layer name`, data.material[0].Name.value])
         if(layers) {
             for (let i = 0; i < layers.length; i++) {
                 const m = layers[i];
