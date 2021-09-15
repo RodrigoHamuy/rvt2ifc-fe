@@ -5,7 +5,8 @@
     "start": "vite",
     "ts": "tsc -w",
     "build": "tsc && vite build",
-    "release": "rm -f -r docs dist && yarn build && mv dist docs"
+    "release": "rm -f -r docs dist && yarn build && mv dist docs",
+    "pr": "git push -u origin HEAD && hub pull-request -i"
   },
   "dependencies": {
     "@types/stats.js": "^0.17.0",
