@@ -6,6 +6,7 @@
     "ts": "tsc -w",
     "build": "tsc && vite build",
     "release": "rm -f -r docs dist && yarn build && mv dist docs",
+    "wasm": "cp node_modules/web-ifc/web-ifc.wasm public/web-ifc.wasm",
     "pr": "git push -u origin HEAD && hub pull-request -i"
   },
   "dependencies": {
@@ -16,16 +17,16 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@types/three": "^0.131.0",
+    "@types/three": "^0.131.1",
     "@vitejs/plugin-react-refresh": "^1.3.1",
     "gsap": "^3.7.1",
     "sass": "^1.39.2",
     "stats.js": "^0.17.0",
-    "three-mesh-bvh": "^0.4.2",
-    "three.js": "^0.77.1",
-    "typescript": "^4.3.2",
+    "three": "^0.132.2",
+    "three-mesh-bvh": "^0.4.3",
+    "typescript": "^4.4.3",
     "vite": "^2.4.4",
     "vite-plugin-live-reload": "^2.1.0",
-    "web-ifc-three": "^0.0.47"
+    "web-ifc-three": "^0.0.61"
   }
 }
