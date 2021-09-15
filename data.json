@@ -1,0 +1,4005 @@
+{
+    "native": {
+        "expressID": 561,
+        "type": 3512223829,
+        "GlobalId": {
+            "type": 1,
+            "value": "0UE$pqyobBv8hL0nJXZfw8"
+        },
+        "OwnerHistory": {
+            "expressID": 41,
+            "type": 1207048766,
+            "OwningUser": {
+                "expressID": 38,
+                "type": 101040310,
+                "ThePerson": {
+                    "expressID": 35,
+                    "type": 2077209135,
+                    "Identification": null,
+                    "FamilyName": {
+                        "type": 1,
+                        "value": ""
+                    },
+                    "GivenName": {
+                        "type": 1,
+                        "value": "dave_rsd@hotmail.com"
+                    },
+                    "MiddleNames": null,
+                    "PrefixTitles": null,
+                    "SuffixTitles": null,
+                    "Roles": null,
+                    "Addresses": null
+                },
+                "TheOrganization": {
+                    "expressID": 37,
+                    "type": 4251960020,
+                    "Identification": null,
+                    "Name": {
+                        "type": 1,
+                        "value": ""
+                    },
+                    "Description": {
+                        "type": 1,
+                        "value": ""
+                    },
+                    "Roles": null,
+                    "Addresses": null
+                },
+                "Roles": null
+            },
+            "OwningApplication": {
+                "expressID": 5,
+                "type": 639542469,
+                "ApplicationDeveloper": {
+                    "expressID": 1,
+                    "type": 4251960020,
+                    "Identification": null,
+                    "Name": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "Description": null,
+                    "Roles": null,
+                    "Addresses": null
+                },
+                "Version": {
+                    "type": 1,
+                    "value": "2021"
+                },
+                "ApplicationFullName": {
+                    "type": 1,
+                    "value": "Autodesk Revit 2021 (ENG)"
+                },
+                "ApplicationIdentifier": {
+                    "type": 1,
+                    "value": "Revit"
+                }
+            },
+            "State": null,
+            "ChangeAction": {
+                "type": 3,
+                "value": "NOCHANGE"
+            },
+            "LastModifiedDate": null,
+            "LastModifyingUser": null,
+            "LastModifyingApplication": null,
+            "CreationDate": {
+                "type": 4,
+                "value": 1626390253
+            }
+        },
+        "Name": {
+            "type": 1,
+            "value": "Basic Wall:BasicWall:310877"
+        },
+        "Description": null,
+        "ObjectType": {
+            "type": 1,
+            "value": "Basic Wall:BasicWall"
+        },
+        "ObjectPlacement": {
+            "expressID": 532,
+            "type": 2624227202,
+            "PlacementRelTo": {
+                "expressID": 137,
+                "type": 2624227202,
+                "PlacementRelTo": {
+                    "expressID": 32,
+                    "type": 2624227202,
+                    "PlacementRelTo": {
+                        "expressID": 148,
+                        "type": 2624227202,
+                        "PlacementRelTo": null,
+                        "RelativePlacement": {
+                            "expressID": 147,
+                            "type": 2740243338,
+                            "Location": {
+                                "expressID": 6,
+                                "type": 1123145078,
+                                "Coordinates": [
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    }
+                                ]
+                            },
+                            "Axis": null,
+                            "RefDirection": null
+                        }
+                    },
+                    "RelativePlacement": {
+                        "expressID": 31,
+                        "type": 2740243338,
+                        "Location": {
+                            "expressID": 6,
+                            "type": 1123145078,
+                            "Coordinates": [
+                                {
+                                    "type": 4,
+                                    "value": 0
+                                },
+                                {
+                                    "type": 4,
+                                    "value": 0
+                                },
+                                {
+                                    "type": 4,
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        "Axis": null,
+                        "RefDirection": null
+                    }
+                },
+                "RelativePlacement": {
+                    "expressID": 136,
+                    "type": 2740243338,
+                    "Location": {
+                        "expressID": 6,
+                        "type": 1123145078,
+                        "Coordinates": [
+                            {
+                                "type": 4,
+                                "value": 0
+                            },
+                            {
+                                "type": 4,
+                                "value": 0
+                            },
+                            {
+                                "type": 4,
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "Axis": null,
+                    "RefDirection": null
+                }
+            },
+            "RelativePlacement": {
+                "expressID": 531,
+                "type": 2740243338,
+                "Location": {
+                    "expressID": 527,
+                    "type": 1123145078,
+                    "Coordinates": [
+                        {
+                            "type": 4,
+                            "value": 1553.71292266336
+                        },
+                        {
+                            "type": 4,
+                            "value": 3682.07138512432
+                        },
+                        {
+                            "type": 4,
+                            "value": 0
+                        }
+                    ]
+                },
+                "Axis": {
+                    "expressID": 19,
+                    "type": 32440307,
+                    "DirectionRatios": [
+                        {
+                            "type": 4,
+                            "value": 0
+                        },
+                        {
+                            "type": 4,
+                            "value": 0
+                        },
+                        {
+                            "type": 4,
+                            "value": 1
+                        }
+                    ]
+                },
+                "RefDirection": {
+                    "expressID": 529,
+                    "type": 32440307,
+                    "DirectionRatios": [
+                        {
+                            "type": 4,
+                            "value": -0.6691306063588592
+                        },
+                        {
+                            "type": 4,
+                            "value": -0.7431448254773941
+                        },
+                        {
+                            "type": 4,
+                            "value": 0
+                        }
+                    ]
+                }
+            }
+        },
+        "Representation": {
+            "expressID": 559,
+            "type": 673634403,
+            "Name": null,
+            "Description": null,
+            "Representations": [
+                {
+                    "expressID": 537,
+                    "type": 4240577450,
+                    "ContextOfItems": {
+                        "expressID": 115,
+                        "type": 4142052618,
+                        "ContextIdentifier": {
+                            "type": 1,
+                            "value": "Axis"
+                        },
+                        "ContextType": {
+                            "type": 1,
+                            "value": "Model"
+                        },
+                        "CoordinateSpaceDimension": {
+                            "type": 0
+                        },
+                        "Precision": {
+                            "type": 0
+                        },
+                        "WorldCoordinateSystem": {
+                            "type": 0
+                        },
+                        "TrueNorth": {
+                            "type": 0
+                        },
+                        "ParentContext": {
+                            "expressID": 112,
+                            "type": 3448662350,
+                            "ContextIdentifier": null,
+                            "ContextType": {
+                                "type": 1,
+                                "value": "Model"
+                            },
+                            "CoordinateSpaceDimension": {
+                                "type": 4,
+                                "value": 3
+                            },
+                            "Precision": {
+                                "type": 4,
+                                "value": 0.010000000000000002
+                            },
+                            "WorldCoordinateSystem": {
+                                "expressID": 109,
+                                "type": 2740243338,
+                                "Location": {
+                                    "expressID": 6,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "Axis": null,
+                                "RefDirection": null
+                            },
+                            "TrueNorth": {
+                                "expressID": 110,
+                                "type": 32440307,
+                                "DirectionRatios": [
+                                    {
+                                        "type": 4,
+                                        "value": 6.123031769111901e-17
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 1
+                                    }
+                                ]
+                            }
+                        },
+                        "TargetScale": null,
+                        "TargetView": {
+                            "type": 3,
+                            "value": "GRAPH_VIEW"
+                        },
+                        "UserDefinedTargetView": null
+                    },
+                    "RepresentationIdentifier": {
+                        "type": 1,
+                        "value": "Axis"
+                    },
+                    "RepresentationType": {
+                        "type": 1,
+                        "value": "Curve2D"
+                    },
+                    "Items": [
+                        {
+                            "expressID": 535,
+                            "type": 3724593414,
+                            "Points": [
+                                {
+                                    "expressID": 9,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "expressID": 533,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 4018.18774750047
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "expressID": 557,
+                    "type": 4240577450,
+                    "ContextOfItems": {
+                        "expressID": 117,
+                        "type": 4142052618,
+                        "ContextIdentifier": {
+                            "type": 1,
+                            "value": "Body"
+                        },
+                        "ContextType": {
+                            "type": 1,
+                            "value": "Model"
+                        },
+                        "CoordinateSpaceDimension": {
+                            "type": 0
+                        },
+                        "Precision": {
+                            "type": 0
+                        },
+                        "WorldCoordinateSystem": {
+                            "type": 0
+                        },
+                        "TrueNorth": {
+                            "type": 0
+                        },
+                        "ParentContext": {
+                            "expressID": 112,
+                            "type": 3448662350,
+                            "ContextIdentifier": null,
+                            "ContextType": {
+                                "type": 1,
+                                "value": "Model"
+                            },
+                            "CoordinateSpaceDimension": {
+                                "type": 4,
+                                "value": 3
+                            },
+                            "Precision": {
+                                "type": 4,
+                                "value": 0.010000000000000002
+                            },
+                            "WorldCoordinateSystem": {
+                                "expressID": 109,
+                                "type": 2740243338,
+                                "Location": {
+                                    "expressID": 6,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "Axis": null,
+                                "RefDirection": null
+                            },
+                            "TrueNorth": {
+                                "expressID": 110,
+                                "type": 32440307,
+                                "DirectionRatios": [
+                                    {
+                                        "type": 4,
+                                        "value": 6.123031769111901e-17
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 1
+                                    }
+                                ]
+                            }
+                        },
+                        "TargetScale": null,
+                        "TargetView": {
+                            "type": 3,
+                            "value": "MODEL_VIEW"
+                        },
+                        "UserDefinedTargetView": null
+                    },
+                    "RepresentationIdentifier": {
+                        "type": 1,
+                        "value": "Body"
+                    },
+                    "RepresentationType": {
+                        "type": 1,
+                        "value": "SweptSolid"
+                    },
+                    "Items": [
+                        {
+                            "expressID": 553,
+                            "type": 477187591,
+                            "SweptArea": {
+                                "expressID": 551,
+                                "type": 3798115385,
+                                "ProfileType": {
+                                    "type": 3,
+                                    "value": "AREA"
+                                },
+                                "ProfileName": null,
+                                "OuterCurve": {
+                                    "expressID": 549,
+                                    "type": 3724593414,
+                                    "Points": [
+                                        {
+                                            "expressID": 539,
+                                            "type": 1123145078,
+                                            "Coordinates": [
+                                                {
+                                                    "type": 4,
+                                                    "value": 4018.18774750047
+                                                },
+                                                {
+                                                    "type": 4,
+                                                    "value": -75
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "expressID": 541,
+                                            "type": 1123145078,
+                                            "Coordinates": [
+                                                {
+                                                    "type": 4,
+                                                    "value": 4006.40905571945
+                                                },
+                                                {
+                                                    "type": 4,
+                                                    "value": 75
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "expressID": 543,
+                                            "type": 1123145078,
+                                            "Coordinates": [
+                                                {
+                                                    "type": 4,
+                                                    "value": 3855.94730782294
+                                                },
+                                                {
+                                                    "type": 4,
+                                                    "value": 75
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "expressID": 545,
+                                            "type": 1123145078,
+                                            "Coordinates": [
+                                                {
+                                                    "type": 4,
+                                                    "value": 26.4490471062713
+                                                },
+                                                {
+                                                    "type": 4,
+                                                    "value": 75
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "expressID": 547,
+                                            "type": 1123145078,
+                                            "Coordinates": [
+                                                {
+                                                    "type": 4,
+                                                    "value": 0
+                                                },
+                                                {
+                                                    "type": 4,
+                                                    "value": -75
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "expressID": 539,
+                                            "type": 1123145078,
+                                            "Coordinates": [
+                                                {
+                                                    "type": 4,
+                                                    "value": 4018.18774750047
+                                                },
+                                                {
+                                                    "type": 4,
+                                                    "value": -75
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            "Position": {
+                                "expressID": 552,
+                                "type": 2740243338,
+                                "Location": {
+                                    "expressID": 6,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "Axis": null,
+                                "RefDirection": null
+                            },
+                            "ExtrudedDirection": {
+                                "expressID": 19,
+                                "type": 32440307,
+                                "DirectionRatios": [
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            "Depth": {
+                                "type": 4,
+                                "value": 4000
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Tag": {
+            "type": 1,
+            "value": "310877"
+        }
+    },
+    "material": [
+        {
+            "expressID": 578,
+            "type": 1303795690,
+            "ForLayerSet": {
+                "expressID": 269,
+                "type": 3303938423,
+                "MaterialLayers": [
+                    {
+                        "expressID": 267,
+                        "type": 248100487,
+                        "Material": {
+                            "expressID": 254,
+                            "type": 1838606355,
+                            "Name": {
+                                "type": 1,
+                                "value": "Concrete Masonry Units _Low Density"
+                            }
+                        },
+                        "LayerThickness": {
+                            "type": 4,
+                            "value": 150
+                        },
+                        "IsVentilated": null
+                    }
+                ],
+                "LayerSetName": {
+                    "type": 1,
+                    "value": "Basic Wall:BasicWall"
+                }
+            },
+            "LayerSetDirection": {
+                "type": 3,
+                "value": "AXIS2"
+            },
+            "DirectionSense": {
+                "type": 3,
+                "value": "NEGATIVE"
+            },
+            "OffsetFromReferenceLine": {
+                "type": 4,
+                "value": 75
+            }
+        }
+    ],
+    "type": [
+        {
+            "expressID": 273,
+            "type": 1898987631,
+            "GlobalId": {
+                "type": 1,
+                "value": "3BcS6l48v6JwxwHSLCahDs"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Basic Wall:BasicWall"
+            },
+            "Description": null,
+            "ApplicableOccurrence": null,
+            "HasPropertySets": [
+                {
+                    "expressID": 343,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3BcS6l48v6JwxwGvXCahDs"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Analytical Properties"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 300,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Absorptance"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCREAL",
+                                "valueType": 4,
+                                "value": 0.7000000000000001
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 301,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Heat Transfer Coefficient (U)"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCREAL",
+                                "valueType": 4,
+                                "value": 8.66666666666667
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 302,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Roughness"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCINTEGER",
+                                "valueType": 4,
+                                "value": 3
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 303,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Thermal Mass"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCREAL",
+                                "valueType": 4,
+                                "value": 21.070409472
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 304,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Thermal Resistance (R)"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCREAL",
+                                "valueType": 4,
+                                "value": 0.11538461538461502
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 345,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3BcS6l48v6JwxwGy5CahDs"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Construction"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 308,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Function"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "Exterior"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 309,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Width"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLENGTHMEASURE",
+                                "valueType": 4,
+                                "value": 150
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 310,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Wrapping at Ends"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "None"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 311,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Wrapping at Inserts"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "Both"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 347,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3BcS6l48v6JwxwGy1CahDs"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Graphics"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 306,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Coarse Scale Fill Color"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCINTEGER",
+                                "valueType": 4,
+                                "value": 12632256
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 307,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Coarse Scale Fill Pattern"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "<Solid fill>"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 349,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3BcS6l48v6JwxwGyHCahDs"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Identity Data"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 312,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Assembly Code"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": ""
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 313,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Assembly Description"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": ""
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 314,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Keynote"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "F10"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 315,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "ModulousID"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "modulous-00-00-01"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 316,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Type Name"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "BasicWall"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 351,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3BcS6l48v6JwxwGyDCahDs"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Materials and Finishes"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 305,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Structural Material"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "Concrete Masonry Units _Low Density"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 353,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "0f04rwbFvDER5qHG3mCGD3"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Other"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 295,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Category"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "Walls"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 317,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Family Name"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "Basic Wall"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 356,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "1Va5IfDsH4QQH3i_5aAL3Y"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_ElementShading"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 355,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Roughness"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCPOSITIVELENGTHMEASURE",
+                                "valueType": 4,
+                                "value": 914.4
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 359,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3X06rru3LAS8aCVgHlZVIV"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_ProductRequirements"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 358,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Category"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "Walls"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 362,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "25aSQ$avb2Hfxq6cuzb8Kb"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_QuantityTakeOff"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 361,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Reference"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "BasicWall"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 365,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3FkelFEZnDeAqBwsi3Rqd7"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_ReinforcementBarPitchOfWall"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 364,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Reference"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "BasicWall"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 369,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3BcS6l48v6JwxwJZXCahDs"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "dave_rsd@hotmail.com"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2021 (ENG)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2021"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2021 (ENG)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1626390253
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_WallCommon"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 361,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Reference"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "BasicWall"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 367,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "ThermalTransmittance"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTHERMALTRANSMITTANCEMEASURE",
+                                "valueType": 4,
+                                "value": 8.66666666666667
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 368,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "IsExternal"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCBOOLEAN",
+                                "valueType": 3,
+                                "value": "F"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                }
+            ],
+            "RepresentationMaps": null,
+            "Tag": {
+                "type": 1,
+                "value": "308885"
+            },
+            "ElementType": null,
+            "PredefinedType": {
+                "type": 3,
+                "value": "STANDARD"
+            }
+        }
+    ],
+    "quantity": [
+        {
+            "expressID": 572,
+            "type": 1883228015,
+            "GlobalId": {
+                "type": 1,
+                "value": "01_eG9JGL7qe4LuKcZ9JhU"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "BaseQuantities"
+            },
+            "Description": null,
+            "MethodOfMeasurement": null,
+            "Quantities": [
+                {
+                    "expressID": 564,
+                    "type": 931644368,
+                    "Name": {
+                        "type": 1,
+                        "value": "Height"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "LengthValue": {
+                        "type": 4,
+                        "value": 4000
+                    }
+                },
+                {
+                    "expressID": 565,
+                    "type": 931644368,
+                    "Name": {
+                        "type": 1,
+                        "value": "Length"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "LengthValue": {
+                        "type": 4,
+                        "value": 4018.18774750047
+                    }
+                },
+                {
+                    "expressID": 566,
+                    "type": 931644368,
+                    "Name": {
+                        "type": 1,
+                        "value": "Width"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "LengthValue": {
+                        "type": 4,
+                        "value": 150
+                    }
+                },
+                {
+                    "expressID": 567,
+                    "type": 2044713172,
+                    "Name": {
+                        "type": 1,
+                        "value": "GrossFootprintArea"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "AreaValue": {
+                        "type": 4,
+                        "value": 0.599861081708525
+                    }
+                },
+                {
+                    "expressID": 568,
+                    "type": 2405470396,
+                    "Name": {
+                        "type": 1,
+                        "value": "NetVolume"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "VolumeValue": {
+                        "type": 4,
+                        "value": 2410912648.50028
+                    }
+                },
+                {
+                    "expressID": 569,
+                    "type": 2044713172,
+                    "Name": {
+                        "type": 1,
+                        "value": "NetSideArea"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "AreaValue": {
+                        "type": 4,
+                        "value": 16072750.9900019
+                    }
+                },
+                {
+                    "expressID": 570,
+                    "type": 2044713172,
+                    "Name": {
+                        "type": 1,
+                        "value": "NetSideArea"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "AreaValue": {
+                        "type": 4,
+                        "value": 16.0727509900019
+                    }
+                },
+                {
+                    "expressID": 571,
+                    "type": 2405470396,
+                    "Name": {
+                        "type": 1,
+                        "value": "NetVolume"
+                    },
+                    "Description": null,
+                    "Unit": null,
+                    "VolumeValue": {
+                        "type": 4,
+                        "value": 2.3994443268341
+                    }
+                }
+            ]
+        },
+        {
+            "expressID": 583,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "0UE$pqyobBv8hL1G3XZfw8"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Constraints"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 275,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base Constraint"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Level: Ground Level"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 276,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base Extension Distance"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 0
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 277,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base is Attached"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 278,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base Offset"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 0
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 279,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Cross-Section"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Vertical"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 280,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Location Line"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Wall Centerline"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 281,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Related to Mass"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 282,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Room Bounding"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "T"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 283,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top Constraint"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Level: Level 1"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 284,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top Extension Distance"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 0
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 285,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top is Attached"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 286,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top Offset"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 0
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 579,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Unconnected Height"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 4000
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 588,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "0UE$pqyobBv8hL1HRXZfw8"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Dimensions"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 580,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Area"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCAREAMEASURE",
+                        "valueType": 4,
+                        "value": 16.0727509900019
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 581,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Length"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 4000
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 582,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Volume"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCVOLUMEMEASURE",
+                        "valueType": 4,
+                        "value": 2.3994443268341
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 593,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "0qxCGkKCr8cviCqYVhjMWh"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Other"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 295,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Category"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Walls"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 296,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Family"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: BasicWall"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 297,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Family and Type"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: BasicWall"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 298,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Type"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: BasicWall"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 299,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Type Id"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: BasicWall"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 598,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "0UE$pqyobBv8hL1HlXZfw8"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Phasing"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 288,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Phase Created"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "New Construction"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 603,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "0UE$pqyobBv8hL1HdXZfw8"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Structural"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 289,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Enable Analytical Model"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 290,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Structural"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 291,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Structural Usage"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Non-bearing"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 609,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "1P7nZL$_5BmPVzLz$Pnxvl"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_ElementShading"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 608,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Roughness"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCPOSITIVELENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 914.4
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 612,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "1_LUefSHrFrfLjdIMKyg6_"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_ProductRequirements"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 611,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Category"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Walls"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 614,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "2bu8GI4cnAIfw_m_oYs5tC"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_QuantityTakeOff"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 361,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Reference"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "BasicWall"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 617,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "2FCIVanuD5TxAhlHpWVA7q"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_ReinforcementBarPitchOfWall"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 616,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Reference"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "BasicWall"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 620,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "0UE$pqyobBv8hL2EdXZfw8"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "dave_rsd@hotmail.com"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2021 (ENG)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2021"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2021 (ENG)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1626390253
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_WallCommon"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 361,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Reference"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "BasicWall"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 395,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "IsExternal"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "T"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 396,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "ExtendToStructure"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 397,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "LoadBearing"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 619,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "ThermalTransmittance"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCTHERMALTRANSMITTANCEMEASURE",
+                        "valueType": 4,
+                        "value": 8.66666666666667
+                    },
+                    "Unit": null
+                }
+            ]
+        }
+    ]
+}

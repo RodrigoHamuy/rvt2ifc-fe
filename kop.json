@@ -1,0 +1,3957 @@
+{
+    "native": {
+        "expressID": 47133,
+        "type": 3512223829,
+        "GlobalId": {
+            "type": 1,
+            "value": "3bI$EkNSn7Og$_Hcgqd2s6"
+        },
+        "OwnerHistory": {
+            "expressID": 41,
+            "type": 1207048766,
+            "OwningUser": {
+                "expressID": 38,
+                "type": 101040310,
+                "ThePerson": {
+                    "expressID": 35,
+                    "type": 2077209135,
+                    "Identification": null,
+                    "FamilyName": {
+                        "type": 1,
+                        "value": ""
+                    },
+                    "GivenName": {
+                        "type": 1,
+                        "value": "james.ashenden"
+                    },
+                    "MiddleNames": null,
+                    "PrefixTitles": null,
+                    "SuffixTitles": null,
+                    "Roles": null,
+                    "Addresses": null
+                },
+                "TheOrganization": {
+                    "expressID": 37,
+                    "type": 4251960020,
+                    "Identification": null,
+                    "Name": {
+                        "type": 1,
+                        "value": ""
+                    },
+                    "Description": {
+                        "type": 1,
+                        "value": ""
+                    },
+                    "Roles": null,
+                    "Addresses": null
+                },
+                "Roles": null
+            },
+            "OwningApplication": {
+                "expressID": 5,
+                "type": 639542469,
+                "ApplicationDeveloper": {
+                    "expressID": 1,
+                    "type": 4251960020,
+                    "Identification": null,
+                    "Name": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "Description": null,
+                    "Roles": null,
+                    "Addresses": null
+                },
+                "Version": {
+                    "type": 1,
+                    "value": "2020"
+                },
+                "ApplicationFullName": {
+                    "type": 1,
+                    "value": "Autodesk Revit 2020 (ENU)"
+                },
+                "ApplicationIdentifier": {
+                    "type": 1,
+                    "value": "Revit"
+                }
+            },
+            "State": null,
+            "ChangeAction": {
+                "type": 3,
+                "value": "NOCHANGE"
+            },
+            "LastModifiedDate": null,
+            "LastModifyingUser": null,
+            "LastModifyingApplication": null,
+            "CreationDate": {
+                "type": 4,
+                "value": 1631635221
+            }
+        },
+        "Name": {
+            "type": 1,
+            "value": "Basic Wall:Perimeter-12.5-100-25:978446"
+        },
+        "Description": null,
+        "ObjectType": {
+            "type": 1,
+            "value": "Basic Wall:Perimeter-12.5-100-25"
+        },
+        "ObjectPlacement": {
+            "expressID": 47113,
+            "type": 2624227202,
+            "PlacementRelTo": {
+                "expressID": 122,
+                "type": 2624227202,
+                "PlacementRelTo": {
+                    "expressID": 32,
+                    "type": 2624227202,
+                    "PlacementRelTo": {
+                        "expressID": 687335,
+                        "type": 2624227202,
+                        "PlacementRelTo": null,
+                        "RelativePlacement": {
+                            "expressID": 687334,
+                            "type": 2740243338,
+                            "Location": {
+                                "expressID": 6,
+                                "type": 1123145078,
+                                "Coordinates": [
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    }
+                                ]
+                            },
+                            "Axis": null,
+                            "RefDirection": null
+                        }
+                    },
+                    "RelativePlacement": {
+                        "expressID": 31,
+                        "type": 2740243338,
+                        "Location": {
+                            "expressID": 6,
+                            "type": 1123145078,
+                            "Coordinates": [
+                                {
+                                    "type": 4,
+                                    "value": 0
+                                },
+                                {
+                                    "type": 4,
+                                    "value": 0
+                                },
+                                {
+                                    "type": 4,
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        "Axis": null,
+                        "RefDirection": null
+                    }
+                },
+                "RelativePlacement": {
+                    "expressID": 121,
+                    "type": 2740243338,
+                    "Location": {
+                        "expressID": 6,
+                        "type": 1123145078,
+                        "Coordinates": [
+                            {
+                                "type": 4,
+                                "value": 0
+                            },
+                            {
+                                "type": 4,
+                                "value": 0
+                            },
+                            {
+                                "type": 4,
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "Axis": null,
+                    "RefDirection": null
+                }
+            },
+            "RelativePlacement": {
+                "expressID": 47112,
+                "type": 2740243338,
+                "Location": {
+                    "expressID": 47110,
+                    "type": 1123145078,
+                    "Coordinates": [
+                        {
+                            "type": 4,
+                            "value": -68.7499999999885
+                        },
+                        {
+                            "type": 4,
+                            "value": 1550
+                        },
+                        {
+                            "type": 4,
+                            "value": -75
+                        }
+                    ]
+                },
+                "Axis": {
+                    "expressID": 19,
+                    "type": 32440307,
+                    "DirectionRatios": [
+                        {
+                            "type": 4,
+                            "value": 0
+                        },
+                        {
+                            "type": 4,
+                            "value": 0
+                        },
+                        {
+                            "type": 4,
+                            "value": 1
+                        }
+                    ]
+                },
+                "RefDirection": {
+                    "expressID": 15,
+                    "type": 32440307,
+                    "DirectionRatios": [
+                        {
+                            "type": 4,
+                            "value": 0
+                        },
+                        {
+                            "type": 4,
+                            "value": 1
+                        },
+                        {
+                            "type": 4,
+                            "value": 0
+                        }
+                    ]
+                }
+            }
+        },
+        "Representation": {
+            "expressID": 47131,
+            "type": 673634403,
+            "Name": null,
+            "Description": null,
+            "Representations": [
+                {
+                    "expressID": 47118,
+                    "type": 4240577450,
+                    "ContextOfItems": {
+                        "expressID": 100,
+                        "type": 4142052618,
+                        "ContextIdentifier": {
+                            "type": 1,
+                            "value": "Axis"
+                        },
+                        "ContextType": {
+                            "type": 1,
+                            "value": "Model"
+                        },
+                        "CoordinateSpaceDimension": {
+                            "type": 0
+                        },
+                        "Precision": {
+                            "type": 0
+                        },
+                        "WorldCoordinateSystem": {
+                            "type": 0
+                        },
+                        "TrueNorth": {
+                            "type": 0
+                        },
+                        "ParentContext": {
+                            "expressID": 97,
+                            "type": 3448662350,
+                            "ContextIdentifier": null,
+                            "ContextType": {
+                                "type": 1,
+                                "value": "Model"
+                            },
+                            "CoordinateSpaceDimension": {
+                                "type": 4,
+                                "value": 3
+                            },
+                            "Precision": {
+                                "type": 4,
+                                "value": 0.010000000000000002
+                            },
+                            "WorldCoordinateSystem": {
+                                "expressID": 94,
+                                "type": 2740243338,
+                                "Location": {
+                                    "expressID": 6,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "Axis": null,
+                                "RefDirection": null
+                            },
+                            "TrueNorth": {
+                                "expressID": 95,
+                                "type": 32440307,
+                                "DirectionRatios": [
+                                    {
+                                        "type": 4,
+                                        "value": 6.123031769111901e-17
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 1
+                                    }
+                                ]
+                            }
+                        },
+                        "TargetScale": null,
+                        "TargetView": {
+                            "type": 3,
+                            "value": "GRAPH_VIEW"
+                        },
+                        "UserDefinedTargetView": null
+                    },
+                    "RepresentationIdentifier": {
+                        "type": 1,
+                        "value": "Axis"
+                    },
+                    "RepresentationType": {
+                        "type": 1,
+                        "value": "Curve2D"
+                    },
+                    "Items": [
+                        {
+                            "expressID": 47116,
+                            "type": 3724593414,
+                            "Points": [
+                                {
+                                    "expressID": 9,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "expressID": 47114,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 3650
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "expressID": 47129,
+                    "type": 4240577450,
+                    "ContextOfItems": {
+                        "expressID": 102,
+                        "type": 4142052618,
+                        "ContextIdentifier": {
+                            "type": 1,
+                            "value": "Body"
+                        },
+                        "ContextType": {
+                            "type": 1,
+                            "value": "Model"
+                        },
+                        "CoordinateSpaceDimension": {
+                            "type": 0
+                        },
+                        "Precision": {
+                            "type": 0
+                        },
+                        "WorldCoordinateSystem": {
+                            "type": 0
+                        },
+                        "TrueNorth": {
+                            "type": 0
+                        },
+                        "ParentContext": {
+                            "expressID": 97,
+                            "type": 3448662350,
+                            "ContextIdentifier": null,
+                            "ContextType": {
+                                "type": 1,
+                                "value": "Model"
+                            },
+                            "CoordinateSpaceDimension": {
+                                "type": 4,
+                                "value": 3
+                            },
+                            "Precision": {
+                                "type": 4,
+                                "value": 0.010000000000000002
+                            },
+                            "WorldCoordinateSystem": {
+                                "expressID": 94,
+                                "type": 2740243338,
+                                "Location": {
+                                    "expressID": 6,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "Axis": null,
+                                "RefDirection": null
+                            },
+                            "TrueNorth": {
+                                "expressID": 95,
+                                "type": 32440307,
+                                "DirectionRatios": [
+                                    {
+                                        "type": 4,
+                                        "value": 6.123031769111901e-17
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 1
+                                    }
+                                ]
+                            }
+                        },
+                        "TargetScale": null,
+                        "TargetView": {
+                            "type": 3,
+                            "value": "MODEL_VIEW"
+                        },
+                        "UserDefinedTargetView": null
+                    },
+                    "RepresentationIdentifier": {
+                        "type": 1,
+                        "value": "Body"
+                    },
+                    "RepresentationType": {
+                        "type": 1,
+                        "value": "SweptSolid"
+                    },
+                    "Items": [
+                        {
+                            "expressID": 47125,
+                            "type": 477187591,
+                            "SweptArea": {
+                                "expressID": 47123,
+                                "type": 3615266464,
+                                "ProfileType": {
+                                    "type": 3,
+                                    "value": "AREA"
+                                },
+                                "ProfileName": null,
+                                "Position": {
+                                    "expressID": 47122,
+                                    "type": 3125803723,
+                                    "Location": {
+                                        "expressID": 47120,
+                                        "type": 1123145078,
+                                        "Coordinates": [
+                                            {
+                                                "type": 4,
+                                                "value": 1825
+                                            },
+                                            {
+                                                "type": 4,
+                                                "value": -7.105427357601011e-15
+                                            }
+                                        ]
+                                    },
+                                    "RefDirection": {
+                                        "expressID": 25,
+                                        "type": 32440307,
+                                        "DirectionRatios": [
+                                            {
+                                                "type": 4,
+                                                "value": -1
+                                            },
+                                            {
+                                                "type": 4,
+                                                "value": 0
+                                            }
+                                        ]
+                                    }
+                                },
+                                "XDim": {
+                                    "type": 4,
+                                    "value": 3650
+                                },
+                                "YDim": {
+                                    "type": 4,
+                                    "value": 137.5
+                                }
+                            },
+                            "Position": {
+                                "expressID": 47124,
+                                "type": 2740243338,
+                                "Location": {
+                                    "expressID": 6,
+                                    "type": 1123145078,
+                                    "Coordinates": [
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        },
+                                        {
+                                            "type": 4,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "Axis": null,
+                                "RefDirection": null
+                            },
+                            "ExtrudedDirection": {
+                                "expressID": 19,
+                                "type": 32440307,
+                                "DirectionRatios": [
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 0
+                                    },
+                                    {
+                                        "type": 4,
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            "Depth": {
+                                "type": 4,
+                                "value": 2700
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Tag": {
+            "type": 1,
+            "value": "978446"
+        }
+    },
+    "material": [
+        {
+            "expressID": 47159,
+            "type": 1303795690,
+            "ForLayerSet": {
+                "expressID": 910,
+                "type": 3303938423,
+                "MaterialLayers": [
+                    {
+                        "expressID": 905,
+                        "type": 248100487,
+                        "Material": {
+                            "expressID": 864,
+                            "type": 1838606355,
+                            "Name": {
+                                "type": 1,
+                                "value": "Sheathing Board_Knauf"
+                            }
+                        },
+                        "LayerThickness": {
+                            "type": 4,
+                            "value": 12.5
+                        },
+                        "IsVentilated": null
+                    },
+                    {
+                        "expressID": 907,
+                        "type": 248100487,
+                        "Material": {
+                            "expressID": 877,
+                            "type": 1838606355,
+                            "Name": {
+                                "type": 1,
+                                "value": "Insulation_Generic_Rigid_Beige"
+                            }
+                        },
+                        "LayerThickness": {
+                            "type": 4,
+                            "value": 100
+                        },
+                        "IsVentilated": null
+                    },
+                    {
+                        "expressID": 908,
+                        "type": 248100487,
+                        "Material": {
+                            "expressID": 891,
+                            "type": 1838606355,
+                            "Name": {
+                                "type": 1,
+                                "value": "Fireline Board_Knauf"
+                            }
+                        },
+                        "LayerThickness": {
+                            "type": 4,
+                            "value": 12.5
+                        },
+                        "IsVentilated": null
+                    },
+                    {
+                        "expressID": 909,
+                        "type": 248100487,
+                        "Material": {
+                            "expressID": 891,
+                            "type": 1838606355,
+                            "Name": {
+                                "type": 1,
+                                "value": "Fireline Board_Knauf"
+                            }
+                        },
+                        "LayerThickness": {
+                            "type": 4,
+                            "value": 12.5
+                        },
+                        "IsVentilated": null
+                    }
+                ],
+                "LayerSetName": {
+                    "type": 1,
+                    "value": "Basic Wall:Perimeter-12.5-100-25"
+                }
+            },
+            "LayerSetDirection": {
+                "type": 3,
+                "value": "AXIS2"
+            },
+            "DirectionSense": {
+                "type": 3,
+                "value": "NEGATIVE"
+            },
+            "OffsetFromReferenceLine": {
+                "type": 4,
+                "value": 68.75
+            }
+        }
+    ],
+    "type": [
+        {
+            "expressID": 917,
+            "type": 1898987631,
+            "GlobalId": {
+                "type": 1,
+                "value": "1vH4P6icz5RvKHfI7FiRNI"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Basic Wall:Perimeter-12.5-100-25"
+            },
+            "Description": null,
+            "ApplicableOccurrence": null,
+            "HasPropertySets": [
+                {
+                    "expressID": 996,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "1vH4P6icz5RvKHetpFiRNI"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Analytical Properties"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 948,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Absorptance"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCREAL",
+                                "valueType": 4,
+                                "value": 0.7000000000000001
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 949,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Roughness"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCINTEGER",
+                                "valueType": 4,
+                                "value": 3
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 998,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "1vH4P6icz5RvKHeoNFiRNI"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Construction"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 953,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Function"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "Interior"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 954,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Width"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLENGTHMEASURE",
+                                "valueType": 4,
+                                "value": 137.5
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 955,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Wrapping at Ends"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "None"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 956,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Wrapping at Inserts"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "Do not wrap"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1000,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "1vH4P6icz5RvKHeoJFiRNI"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Graphics"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 951,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Coarse Scale Fill Color"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCINTEGER",
+                                "valueType": 4,
+                                "value": 12632256
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 952,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Coarse Scale Fill Pattern"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "<Solid fill>"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1002,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "1vH4P6icz5RvKHeo3FiRNI"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Identity Data"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 193,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Edited by"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": ""
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 957,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Assembly Code"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": ""
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 958,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Assembly Description"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": ""
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 959,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Code: Category"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "WPA"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 960,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Code: Type"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "01"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 961,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Object Class"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "Assembly"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 962,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Type Name"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "Perimeter-12.5-100-25"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 963,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Workset"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "Wall Types"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1004,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "1vH4P6icz5RvKHeoVFiRNI"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Materials and Finishes"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 950,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Structural Material"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "Insulation_Generic_Rigid_Beige"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1006,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "2NUzMM3B159B79LnqKfRo2"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Other"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 943,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Category"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "Walls"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 964,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Family Name"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCTEXT",
+                                "valueType": 1,
+                                "value": "Basic Wall"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1009,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "09TipPPmDCpRmJcVYUgaIF"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_ElementShading"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 1008,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Roughness"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCPOSITIVELENGTHMEASURE",
+                                "valueType": 4,
+                                "value": 914.4
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1012,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3fIsE28iz3p8DUUdetr9Yy"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_ProductRequirements"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 1011,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Category"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "Walls"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1015,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "0H3azljOD9Uf_s4nIwSz4E"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_QuantityTakeOff"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 1014,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Reference"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "Perimeter-12.5-100-25"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1018,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "3Gd547T3n1oBtwr8jxe2wK"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_ReinforcementBarPitchOfWall"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 1017,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Reference"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCLABEL",
+                                "valueType": 1,
+                                "value": "Perimeter-12.5-100-25"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                },
+                {
+                    "expressID": 1021,
+                    "type": 1451395588,
+                    "GlobalId": {
+                        "type": 1,
+                        "value": "1vH4P6icz5RvKHhjpFiRNI"
+                    },
+                    "OwnerHistory": {
+                        "expressID": 41,
+                        "type": 1207048766,
+                        "OwningUser": {
+                            "expressID": 38,
+                            "type": 101040310,
+                            "ThePerson": {
+                                "expressID": 35,
+                                "type": 2077209135,
+                                "Identification": null,
+                                "FamilyName": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "GivenName": {
+                                    "type": 1,
+                                    "value": "james.ashenden"
+                                },
+                                "MiddleNames": null,
+                                "PrefixTitles": null,
+                                "SuffixTitles": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "TheOrganization": {
+                                "expressID": 37,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Description": {
+                                    "type": 1,
+                                    "value": ""
+                                },
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Roles": null
+                        },
+                        "OwningApplication": {
+                            "expressID": 5,
+                            "type": 639542469,
+                            "ApplicationDeveloper": {
+                                "expressID": 1,
+                                "type": 4251960020,
+                                "Identification": null,
+                                "Name": {
+                                    "type": 1,
+                                    "value": "Autodesk Revit 2020 (ENU)"
+                                },
+                                "Description": null,
+                                "Roles": null,
+                                "Addresses": null
+                            },
+                            "Version": {
+                                "type": 1,
+                                "value": "2020"
+                            },
+                            "ApplicationFullName": {
+                                "type": 1,
+                                "value": "Autodesk Revit 2020 (ENU)"
+                            },
+                            "ApplicationIdentifier": {
+                                "type": 1,
+                                "value": "Revit"
+                            }
+                        },
+                        "State": null,
+                        "ChangeAction": {
+                            "type": 3,
+                            "value": "NOCHANGE"
+                        },
+                        "LastModifiedDate": null,
+                        "LastModifyingUser": null,
+                        "LastModifyingApplication": null,
+                        "CreationDate": {
+                            "type": 4,
+                            "value": 1631635221
+                        }
+                    },
+                    "Name": {
+                        "type": 1,
+                        "value": "Pset_WallCommon"
+                    },
+                    "Description": null,
+                    "HasProperties": [
+                        {
+                            "expressID": 1014,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "Reference"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCIDENTIFIER",
+                                "valueType": 1,
+                                "value": "Perimeter-12.5-100-25"
+                            },
+                            "Unit": null
+                        },
+                        {
+                            "expressID": 1020,
+                            "type": 3650150729,
+                            "Name": {
+                                "type": 1,
+                                "value": "IsExternal"
+                            },
+                            "Description": null,
+                            "NominalValue": {
+                                "type": 2,
+                                "label": "IFCBOOLEAN",
+                                "valueType": 3,
+                                "value": "F"
+                            },
+                            "Unit": null
+                        }
+                    ]
+                }
+            ],
+            "RepresentationMaps": null,
+            "Tag": {
+                "type": 1,
+                "value": "483811"
+            },
+            "ElementType": null,
+            "PredefinedType": {
+                "type": 3,
+                "value": "STANDARD"
+            }
+        }
+    ],
+    "quantity": [
+        {
+            "expressID": 47168,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "3bI$EkNSn7Og$_G7wqd2s6"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Constraints"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 919,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base Constraint"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Level: FFL"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 920,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base Extension Distance"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 0
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 921,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base is Attached"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 923,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Location Line"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Finish Face: Interior"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 924,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Related to Mass"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 925,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Room Bounding"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "T"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 926,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top Constraint"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Level: FFL"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 927,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top Extension Distance"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 0
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 928,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top is Attached"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 47160,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Base Offset"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": -75
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 47161,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Top Offset"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 2625
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 47162,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Unconnected Height"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 2700
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47174,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "3bI$EkNSn7Og$_G6Yqd2s6"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Dimensions"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 47163,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Area"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCAREAMEASURE",
+                        "valueType": 4,
+                        "value": 9.855
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 47164,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Length"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 3650
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 47165,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Volume"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCVOLUMEMEASURE",
+                        "valueType": 4,
+                        "value": 1.3548131250000002
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47179,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "3bI$EkNSn7Og$_G6kqd2s6"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Identity Data"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 193,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Edited by"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCTEXT",
+                        "valueType": 1,
+                        "value": ""
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 196,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Workset"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Workset1"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 47166,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Code: Spec"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCTEXT",
+                        "valueType": 1,
+                        "value": "00"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 47167,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Mark"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCTEXT",
+                        "valueType": 1,
+                        "value": "WP1-1-2"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47184,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "1ga4kWAezBwh5w7qcs90DH"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Other"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 943,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Category"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Walls"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 944,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Family"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: Perimeter-12.5-100-25"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 945,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Family and Type"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: Perimeter-12.5-100-25"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 946,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Type"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: Perimeter-12.5-100-25"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 947,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Type Id"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Basic Wall: Perimeter-12.5-100-25"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47189,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "3bI$EkNSn7Og$_G6Mqd2s6"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Phasing"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 931,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Phase Created"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "New Construction"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47194,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "3bI$EkNSn7Og$_G6Uqd2s6"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Structural"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 932,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Enable Analytical Model"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "T"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 933,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Rebar Cover - Exterior Face"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Rebar Cover Settings: Rebar Cover 1"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 934,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Rebar Cover - Interior Face"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Rebar Cover Settings: Rebar Cover 1"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 935,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Rebar Cover - Other Faces"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Rebar Cover Settings: Rebar Cover 1"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 936,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Structural"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "T"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 937,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Structural Usage"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Bearing"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47263,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "2jc5n3TX56BBitWv14Ngzt"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_ElementShading"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 47262,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Roughness"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCPOSITIVELENGTHMEASURE",
+                        "valueType": 4,
+                        "value": 914.4
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47266,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "33KqerJrj9$h5BDtoJvD8k"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_ProductRequirements"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 47265,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Category"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Walls"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47268,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "30p68m1on02uJG$6iWPqNF"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_QuantityTakeOff"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 1014,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Reference"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Perimeter-12.5-100-25"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47271,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "0wtsEKYNbExgmXZiohGG$f"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_ReinforcementBarPitchOfWall"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 47270,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Reference"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCLABEL",
+                        "valueType": 1,
+                        "value": "Perimeter-12.5-100-25"
+                    },
+                    "Unit": null
+                }
+            ]
+        },
+        {
+            "expressID": 47273,
+            "type": 1451395588,
+            "GlobalId": {
+                "type": 1,
+                "value": "3bI$EkNSn7Og$_JPUqd2s6"
+            },
+            "OwnerHistory": {
+                "expressID": 41,
+                "type": 1207048766,
+                "OwningUser": {
+                    "expressID": 38,
+                    "type": 101040310,
+                    "ThePerson": {
+                        "expressID": 35,
+                        "type": 2077209135,
+                        "Identification": null,
+                        "FamilyName": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "GivenName": {
+                            "type": 1,
+                            "value": "james.ashenden"
+                        },
+                        "MiddleNames": null,
+                        "PrefixTitles": null,
+                        "SuffixTitles": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "TheOrganization": {
+                        "expressID": 37,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Description": {
+                            "type": 1,
+                            "value": ""
+                        },
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Roles": null
+                },
+                "OwningApplication": {
+                    "expressID": 5,
+                    "type": 639542469,
+                    "ApplicationDeveloper": {
+                        "expressID": 1,
+                        "type": 4251960020,
+                        "Identification": null,
+                        "Name": {
+                            "type": 1,
+                            "value": "Autodesk Revit 2020 (ENU)"
+                        },
+                        "Description": null,
+                        "Roles": null,
+                        "Addresses": null
+                    },
+                    "Version": {
+                        "type": 1,
+                        "value": "2020"
+                    },
+                    "ApplicationFullName": {
+                        "type": 1,
+                        "value": "Autodesk Revit 2020 (ENU)"
+                    },
+                    "ApplicationIdentifier": {
+                        "type": 1,
+                        "value": "Revit"
+                    }
+                },
+                "State": null,
+                "ChangeAction": {
+                    "type": 3,
+                    "value": "NOCHANGE"
+                },
+                "LastModifiedDate": null,
+                "LastModifyingUser": null,
+                "LastModifyingApplication": null,
+                "CreationDate": {
+                    "type": 4,
+                    "value": 1631635221
+                }
+            },
+            "Name": {
+                "type": 1,
+                "value": "Pset_WallCommon"
+            },
+            "Description": null,
+            "HasProperties": [
+                {
+                    "expressID": 1014,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "Reference"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCIDENTIFIER",
+                        "valueType": 1,
+                        "value": "Perimeter-12.5-100-25"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 1020,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "IsExternal"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 1046,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "ExtendToStructure"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "F"
+                    },
+                    "Unit": null
+                },
+                {
+                    "expressID": 1047,
+                    "type": 3650150729,
+                    "Name": {
+                        "type": 1,
+                        "value": "LoadBearing"
+                    },
+                    "Description": null,
+                    "NominalValue": {
+                        "type": 2,
+                        "label": "IFCBOOLEAN",
+                        "valueType": 3,
+                        "value": "T"
+                    },
+                    "Unit": null
+                }
+            ]
+        }
+    ]
+}

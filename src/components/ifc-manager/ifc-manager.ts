@@ -1,4 +1,4 @@
-import { DirectionalLight, AmbientLight } from "three";
+import { DirectionalLight, AmbientLight, MeshLambertMaterial } from "three";
 import { IFCModel } from "web-ifc-three/IFC/Components/IFCModel";
 import { IFCLoader } from "web-ifc-three/IFCLoader";
 import { CameraManager } from "../camera-manager/camera-manager";
@@ -18,6 +18,7 @@ export class IfcManager {
   private cameraManager: CameraManager;
   private picker: Picker;
   private model!: IFCModel;
+  private ifcApi: any;
 
   constructor() {
 
@@ -30,6 +31,8 @@ export class IfcManager {
     this.cameraManager = new CameraManager(this.stage);
     
     this.picker = new Picker(this.stage, this.ifcLoader.ifcManager);
+
+    this.ifcApi = this.ifcLoader.ifcManager.ifcAPI;
     
     new StatsManager(this.stage);
 
@@ -64,7 +67,7 @@ export class IfcManager {
     })
 
     this.picker.on(PICKER_EVENT.unpick, ()=>{
-      this.cameraManager.fitToFrame({ obj: this.model });
+      this.cameraManager.fitToFrame({ obj: this.model as any });
     })
   }  
 
@@ -94,9 +97,31 @@ export class IfcManager {
       // this.model.clear();
     }
     this.model = await this.ifcLoader.loadAsync(url);
-    this.stage.scene.add(this.model);
-    this.cameraManager.fitToFrame({ obj: this.model, root: true });
-    // console.log(this.model);
+    // this.model.material = new MeshLambertMaterial({
+    //   transparent: true,
+    //   opacity: 0.1,
+    //   color: 0x77aaff
+    // });
+    console.log(this.model.modelID);    
+    this.stage.scene.add(this.model as any);
+    this.cameraManager.fitToFrame({ obj: this.model as any, root: true });
+
+    // this.getAll();
+  }
+
+  private getAll() {
+    const allItems = this.GetAllItems(this.model.modelID)
+    .filter(item=>item.customExtractedData.material.length);
+    console.log(allItems);
+    const wait = (seconds: number) => new Promise(resolve => setTimeout(resolve, seconds*100));
+    (globalThis as any).loop = async ()=> {
+      for (const item of allItems) {
+        await wait(3);
+        // console.log(item);        
+        (globalThis as any).createSubset(this.model.modelID, item.expressID);
+      }
+    }
+
   }
 
   private initLights() {
@@ -108,5 +133,42 @@ export class IfcManager {
     this.stage.scene.add(light2);
     const ambientLight = new AmbientLight(0xffffee, 0.25);
     this.stage.scene.add(ambientLight);
+  }
+
+  private GetAllItems(modelID: any) {
+    const allItems: any[] = [];
+    const lines = this.ifcApi.GetAllLines(modelID);
+    this.getAllItemsFromLines(modelID, lines, allItems);
+    return allItems;
+}
+
+  private getAllItemsFromLines(modelID: number, lines: any, allItems: any[]) {
+      for (let i = 1; i <= lines.size(); i++) {
+          try {
+              this.saveProperties(modelID, lines, allItems, i);
+          } catch (e) {
+              console.log(e);
+          }
+      }
+  }
+
+  saveProperties(modelID: any, lines: any, allItems: any[], index: any) {
+      const itemID = lines.get(index);
+      const props = this.ifcApi.GetLine(modelID, itemID);
+      props.type = props.__proto__.constructor.name;
+      // if (!excludeGeometry || !geometryTypes.has(props.type)) {
+      if ([
+        'IfcWallStandardCase',
+        'IfcSlab'
+      ].includes(props.type)) {
+        allItems.push(props);
+        props.customExtractedData = {
+          native: this.ifcLoader.ifcManager.getItemProperties(modelID, props.expressID, true),
+          material: this.ifcLoader.ifcManager.getMaterialsProperties(modelID, props.expressID, true),
+          type: this.ifcLoader.ifcManager.getTypeProperties(modelID, props.expressID, true),
+          quantity: this.ifcLoader.ifcManager.getPropertySets(modelID, props.expressID, true),
+        };
+          // allItems[itemID] = props;
+      }
   }
 }

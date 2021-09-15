@@ -23,9 +23,11 @@ export class Picker {
 
   /** Current picked model ID */
   private modelID?: number;
+  private expressID?: number;
 
   constructor(private stage: Stage, private ifc: IFCManager) {
     (this.raycaster as any).firstHitOnly = true;
+    (globalThis as any).createSubset = this.createSubset.bind(this);    
   }
 
   cast(e: MouseEvent) {
@@ -52,46 +54,50 @@ export class Picker {
       const index = found.faceIndex!;
       const obj = found.object as (Mesh & { modelID: number });
       const geometry = obj.geometry;
-      this.modelID = obj.modelID;
       const expressID = this.ifc.getExpressId(geometry, index)!;
-      const pickedObj = this.ifc.createSubset({
-        modelID: this.modelID,
-        ids: [expressID],
-        material: this.preselectMat,
-        scene: this.stage.scene,
-        removePrevious: true,
-      });
-      
-      // console.log(obj.position);
-      // console.log(geometry.toJSON());
-
-      // console.log(expressID);
-      // console.log('getItemProperties');
-      const data = {
-        native: this.ifc.getItemProperties(this.modelID, expressID, false),
-        material: this.ifc.getMaterialsProperties(this.modelID, expressID, false),
-        type: this.ifc.getTypeProperties(this.modelID, expressID, false),
-        quantity: this.ifc.getPropertySets(this.modelID, expressID, false),
-      };
-      // console.log(data);      
-      // console.log(JSON.stringify(data, undefined, 2));
-      // console.log('getMaterialsProperties');
-      // console.log(this.ifc.getMaterialsProperties(this.modelID, expressID));
-      // console.log('getPropertySets');
-      // console.log(this.ifc.getPropertySets(this.modelID, expressID));
-      // console.log('getSpatialStructure');
-      // console.log(this.ifc.getSpatialStructure(this.modelID));
-      // console.log('getAttribute');
-      // console.log(geometry.getAttribute('position'));
-
-      this.fire(PICKER_EVENT.pick, {
-        normal: found.face!.normal,
-        object: pickedObj!,
-        data,
-      });
+      if(expressID === this.expressID) return;
+      this.createSubset(obj.modelID, expressID, found.face!.normal);
     } else {
       this.unpick();
     }
+  }
+
+  private createSubset(modelID: number, expressID: number, normal = new Vector3(.3,.3,.3).normalize()) {
+
+    const data = {
+      native: this.ifc.getItemProperties(modelID, expressID, true),
+      material: this.ifc.getMaterialsProperties(modelID, expressID, true),
+      type: this.ifc.getTypeProperties(modelID, expressID, true),
+      quantity: this.ifc.getPropertySets(modelID, expressID, true),
+    };
+
+    console.log(data);    
+    
+    // if(!data.material.length) {
+    //   console.log(`can't create subset`);
+    //   return;
+    // }
+    
+    this.modelID = modelID;
+    this.expressID = expressID;
+
+
+    const pickedObj = this.ifc.createSubset({
+      modelID: this.modelID,
+      ids: [this.expressID],
+      material: this.preselectMat,
+      scene: this.stage.scene,
+      removePrevious: true,
+    });
+
+    if(!pickedObj) return;
+
+    this.fire(PICKER_EVENT.pick, {
+      normal: normal,
+      object: pickedObj! as any,
+      data,
+    });
+
   }
 
   unpick = ()=> {
@@ -99,6 +105,7 @@ export class Picker {
       console.log('unpick');
       this.ifc.removeSubset(this.modelID, this.stage.scene, this.preselectMat);
       this.modelID = undefined;
+      this.expressID = undefined;
       this.fire(PICKER_EVENT.unpick);
     }
   }
