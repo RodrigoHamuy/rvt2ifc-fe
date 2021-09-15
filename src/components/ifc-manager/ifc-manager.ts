@@ -1,15 +1,16 @@
-import { DirectionalLight, AmbientLight, MeshLambertMaterial } from "three";
+import { AmbientLight, DirectionalLight } from "three";
+import {
+  acceleratedRaycast,
+  computeBoundsTree,
+  disposeBoundsTree
+} from 'three-mesh-bvh';
 import { IFCModel } from "web-ifc-three/IFC/Components/IFCModel";
 import { IFCLoader } from "web-ifc-three/IFCLoader";
 import { CameraManager } from "../camera-manager/camera-manager";
 import { Picker, PICKER_EVENT } from "../picker/picker";
 import { Stage } from "../stage/stage";
 import { StatsManager } from "../stats/stats";
-import {
-  acceleratedRaycast,
-  computeBoundsTree,
-  disposeBoundsTree
-} from 'three-mesh-bvh';
+import { Ifc2Code } from "./IfcTypesMap";
 
 export class IfcManager {
 
@@ -152,14 +153,16 @@ export class IfcManager {
       }
   }
 
-  saveProperties(modelID: any, lines: any, allItems: any[], index: any) {
+  private saveProperties(modelID: any, lines: any, allItems: any[], index: any) {
       const itemID = lines.get(index);
       const props = this.ifcApi.GetLine(modelID, itemID);
-      props.type = props.__proto__.constructor.name;
       // if (!excludeGeometry || !geometryTypes.has(props.type)) {
       if ([
-        'IfcWallStandardCase',
-        'IfcSlab'
+        Ifc2Code.IFCWALLSTANDARDCASE,
+        Ifc2Code.IFCSLAB,
+        Ifc2Code.IFCDOOR,
+        Ifc2Code.IFCWINDOW,
+        Ifc2Code.IFCBEAM,
       ].includes(props.type)) {
         allItems.push(props);
         props.customExtractedData = {
@@ -168,7 +171,6 @@ export class IfcManager {
           type: this.ifcLoader.ifcManager.getTypeProperties(modelID, props.expressID, true),
           quantity: this.ifcLoader.ifcManager.getPropertySets(modelID, props.expressID, true),
         };
-          // allItems[itemID] = props;
       }
   }
 }

@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { R2iContext } from "../context/contex";
+import { Code2Ifc } from "../ifc-manager/IfcTypesMap";
 import classes from './description.module.scss';
 
 const getDataList = (data: any) => {
@@ -35,7 +36,7 @@ export const Description = () => {
     
     const rows : [string, string|number][] = [
         ['Name', data.native.Name.value],
-        ['IFC type', data.native.constructor.name],
+        ['IFC type', Code2Ifc[data.native.type]],
         ['Object type', data.native.ObjectType.value],
     ];
 
