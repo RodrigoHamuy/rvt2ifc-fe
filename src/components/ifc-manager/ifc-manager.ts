@@ -110,8 +110,38 @@ export class IfcManager {
     // this.getAll();
   }
 
+  private initLights() {
+    const light1 = new DirectionalLight(0xffeeff, 0.8);
+    light1.position.set(1, 1, 1);
+    this.stage.scene.add(light1);
+    const light2 = new DirectionalLight(0xffffff, 0.8);
+    light2.position.set(-1, 0.5, -1);
+    this.stage.scene.add(light2);
+    const ambientLight = new AmbientLight(0xffffee, 0.25);
+    this.stage.scene.add(ambientLight);
+  }
+
+  find(filter: number[]) {
+    // [
+    //   Ifc2Code.IFCWALLSTANDARDCASE,
+    //   Ifc2Code.IFCSLAB,
+    //   Ifc2Code.IFCDOOR,
+    //   Ifc2Code.IFCWINDOW,
+    //   Ifc2Code.IFCBEAM,
+    // ]
+    const allItems = this.GetAllItems(this.model.modelID, filter)
+    .filter(item=>item.customExtractedData.material.length);
+    console.log(allItems);
+    this.cameraManager.fitToFrame({ obj: this.model as any });
+    if(!allItems.length) return;
+    this.picker.createSubsets(
+      this.model.modelID,
+      allItems.map(a=>a.expressID)
+    );
+  }
+
   private getAll() {
-    const allItems = this.GetAllItems(this.model.modelID)
+    const allItems = this.GetAllItems(this.model.modelID, [])
     .filter(item=>item.customExtractedData.material.length);
     console.log(allItems);
     const wait = (seconds: number) => new Promise(resolve => setTimeout(resolve, seconds*100));
@@ -125,51 +155,34 @@ export class IfcManager {
 
   }
 
-  private initLights() {
-    const light1 = new DirectionalLight(0xffeeff, 0.8);
-    light1.position.set(1, 1, 1);
-    this.stage.scene.add(light1);
-    const light2 = new DirectionalLight(0xffffff, 0.8);
-    light2.position.set(-1, 0.5, -1);
-    this.stage.scene.add(light2);
-    const ambientLight = new AmbientLight(0xffffee, 0.25);
-    this.stage.scene.add(ambientLight);
-  }
-
-  private GetAllItems(modelID: any) {
+  private GetAllItems(modelID: any, filter: number[]) {
     const allItems: any[] = [];
     const lines = this.ifcApi.GetAllLines(modelID);
-    this.getAllItemsFromLines(modelID, lines, allItems);
+    this.getAllItemsFromLines(modelID, lines, allItems, filter);
     return allItems;
 }
 
-  private getAllItemsFromLines(modelID: number, lines: any, allItems: any[]) {
+  private getAllItemsFromLines(modelID: number, lines: any, allItems: any[], filter: number[]) {
       for (let i = 1; i <= lines.size(); i++) {
           try {
-              this.saveProperties(modelID, lines, allItems, i);
+              this.saveProperties(modelID, lines, allItems, i, filter);
           } catch (e) {
               console.log(e);
           }
       }
   }
 
-  private saveProperties(modelID: any, lines: any, allItems: any[], index: any) {
+  private saveProperties(modelID: any, lines: any, allItems: any[], index: any, filter: number[]) {
       const itemID = lines.get(index);
       const props = this.ifcApi.GetLine(modelID, itemID);
       // if (!excludeGeometry || !geometryTypes.has(props.type)) {
-      if ([
-        Ifc2Code.IFCWALLSTANDARDCASE,
-        Ifc2Code.IFCSLAB,
-        Ifc2Code.IFCDOOR,
-        Ifc2Code.IFCWINDOW,
-        Ifc2Code.IFCBEAM,
-      ].includes(props.type)) {
+      if (!filter.length || filter.includes(props.type)) {
         allItems.push(props);
         props.customExtractedData = {
-          native: this.ifcLoader.ifcManager.getItemProperties(modelID, props.expressID, true),
+          // native: this.ifcLoader.ifcManager.getItemProperties(modelID, props.expressID, true),
           material: this.ifcLoader.ifcManager.getMaterialsProperties(modelID, props.expressID, true),
-          type: this.ifcLoader.ifcManager.getTypeProperties(modelID, props.expressID, true),
-          quantity: this.ifcLoader.ifcManager.getPropertySets(modelID, props.expressID, true),
+          // type: this.ifcLoader.ifcManager.getTypeProperties(modelID, props.expressID, true),
+          // quantity: this.ifcLoader.ifcManager.getPropertySets(modelID, props.expressID, true),
         };
       }
   }

@@ -23,7 +23,7 @@ export class Picker {
 
   /** Current picked model ID */
   private modelID?: number;
-  private expressID?: number;
+  private expressIDs: number[] = [];
 
   constructor(private stage: Stage, private ifc: IFCManager) {
     (this.raycaster as any).firstHitOnly = true;
@@ -55,11 +55,24 @@ export class Picker {
       const obj = found.object as (Mesh & { modelID: number });
       const geometry = obj.geometry;
       const expressID = this.ifc.getExpressId(geometry, index)!;
-      if(expressID === this.expressID) return;
+      if(this.expressIDs.length === 1 && this.expressIDs[0] === expressID) return;
       this.createSubset(obj.modelID, expressID, found.face!.normal);
     } else {
       this.unpick();
     }
+  }
+
+  createSubsets(modelID: number, expressIDs: number[]) {
+    this.ifc.createSubset({
+      modelID: modelID,
+      ids: expressIDs.slice(),
+      material: this.preselectMat,
+      scene: this.stage.scene,
+      removePrevious: true,
+    });
+    this.modelID = modelID;
+    this.expressIDs = expressIDs;
+
   }
 
   private createSubset(modelID: number, expressID: number, normal = new Vector3(.3,.3,.3).normalize()) {
@@ -79,12 +92,13 @@ export class Picker {
     // }
     
     this.modelID = modelID;
-    this.expressID = expressID;
-
+    this.expressIDs = [expressID];
+    
+    this.ifc.removeSubset(this.modelID, this.stage.scene, this.preselectMat);
 
     const pickedObj = this.ifc.createSubset({
       modelID: this.modelID,
-      ids: [this.expressID],
+      ids: this.expressIDs.slice(),
       material: this.preselectMat,
       scene: this.stage.scene,
       removePrevious: true,
@@ -105,7 +119,7 @@ export class Picker {
       console.log('unpick');
       this.ifc.removeSubset(this.modelID, this.stage.scene, this.preselectMat);
       this.modelID = undefined;
-      this.expressID = undefined;
+      this.expressIDs = [];
       this.fire(PICKER_EVENT.unpick);
     }
   }

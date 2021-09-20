@@ -40,6 +40,26 @@ export const Description = () => {
         ['Object type', data.native.ObjectType.value],
     ];
 
+    // if(data.type.length && data.type[0].HasPropertySets && data.type[0].HasPropertySets.length) {
+    //     const props : any = [];
+    //     for (const h of data.type[0].HasPropertySets) {
+    //         for (const r of h.HasProperties) {
+    //             if(r.Name && r.Name.value.indexOf('Code: ') !== 0) continue;
+    //             props.push([r.Name.value, r.NominalValue.value]);
+    //         }
+    //     }
+    //     rows.push(...props);
+    // }
+
+    // for (const h of data.quantity) {
+    //     const props : any = [];
+    //     for (const r of h.HasProperties) {
+    //         if(r.Name && r.Name.value.indexOf('Code: ') !== 0) continue;
+    //         props.push([r.Name.value, r.NominalValue.value]);
+    //     }
+    //     rows.push(...props);
+    // }
+
     const dimensions = data.quantity.find((q:any)=>q.Name.value === 'Dimensions');
 
     if(dimensions) {

@@ -31,6 +31,7 @@ export const R2iProvider : FC = ({children}) => {
         loadUrl: ifcViewer.loadUrl,
         loadFile: ifcViewer.loadFile,
         insertCanvas: ifcViewer.insertCanvas,
+        find: ifcViewer.find.bind(ifcViewer),
     }}>{children}</R2iContext.Provider>
 }
 
@@ -42,5 +43,6 @@ interface R2IContextValue extends R2iProviderState {
     loadUrl: (url: string) => void,
     loadFile: (file: File) => void,
     insertCanvas: (container: HTMLElement) => void,
+    find: (filter: number[]) => void;
 
 }
