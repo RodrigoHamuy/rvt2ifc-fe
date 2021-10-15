@@ -1,7 +1,8 @@
+import gsap from 'gsap';
 import { Box3, MathUtils, Object3D, Vector3 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { DEG2RAD } from "three/src/math/MathUtils";
 import { Stage } from "../stage/stage";
-import gsap from 'gsap';
 
 export class CameraManager {
 
@@ -16,6 +17,54 @@ export class CameraManager {
     this.controls.target.set(0,0,0);
     this.stage.camera.position.set(0, .4, .7);
     this.controls.update();
+    
+    let speed = 0;
+    const maxSpeed = 1;
+    const acc = 0.01;
+    const targetDist = 10;
+
+    let rotSpeed = 0;
+    const rotMaxSpeed = 10;
+    const rotAcc = 0.1;
+
+    document.addEventListener('keypress', e=> {
+      
+      if(['ArrowUp', 'KeyW'].includes(e.code)) {
+        const dir = new Vector3(0,0,-1).applyQuaternion(this.stage.camera.quaternion);
+        speed = Math.min(speed + acc, maxSpeed);
+        this.controls.target.add(dir.clone().multiplyScalar(speed));
+        this.stage.camera.position.add(dir.clone().multiplyScalar(speed));
+        this.controls.update();
+      } else if(['ArrowDown', 'KeyS'].includes(e.code)) {
+        const dir = new Vector3(0,0,-1).applyQuaternion(this.stage.camera.quaternion);
+        speed = Math.max(speed - acc, -maxSpeed);   
+        this.controls.target.add(dir.clone().multiplyScalar(speed));
+        this.stage.camera.position.add(dir.clone().multiplyScalar(speed));
+        this.controls.update();
+      } else if(['ArrowLeft', 'KeyA'].includes(e.code)) {
+        rotSpeed = Math.min(rotSpeed+rotAcc, rotMaxSpeed);
+        const dir = new Vector3(0,0,-1).applyQuaternion(this.stage.camera.quaternion);
+        dir.applyAxisAngle(new Vector3(0,1,0), rotSpeed*DEG2RAD);
+        this.controls.target.copy(this.stage.camera.position.clone().add(dir.clone().multiplyScalar(targetDist)));
+      } else if(['ArrowRight', 'KeyD'].includes(e.code)) {
+        rotSpeed = Math.max(rotSpeed-rotAcc, -rotMaxSpeed);
+        const dir = new Vector3(0,0,-1).applyQuaternion(this.stage.camera.quaternion);
+        dir.applyAxisAngle(new Vector3(0,1,0), rotSpeed*DEG2RAD);
+        this.controls.target.copy(this.stage.camera.position.clone().add(dir.clone().multiplyScalar(targetDist)));
+      }
+    })
+
+    document.addEventListener('keyup', e => {
+      if(['ArrowUp', 'KeyW'].includes(e.code)) {
+        speed = 0;
+      } else if(['ArrowDown', 'KeyS'].includes(e.code)) {
+        speed = 0;
+      } else if(['ArrowLeft', 'KeyA'].includes(e.code)) {
+        rotSpeed = 0;
+      } else if(['ArrowRight', 'KeyD'].includes(e.code)) {
+        rotSpeed = 0;
+      }
+    })
 
     this.stage.onPreTick(()=>{
       this.controls.update();
